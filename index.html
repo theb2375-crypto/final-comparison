@@ -8,41 +8,21 @@
 </head>
 <body>
     
-    
-    <div class="background-anim bg-en" id="bg-en">
+    <div class="background-anim">
         <div class="orb orb-1"></div>
         <div class="orb orb-2"></div>
         <div class="orb orb-3"></div>
-    </div>
-    
-    <div class="background-anim bg-hi hidden-bg" id="bg-hi">
-        <div class="orb orb-1"></div>
-        <div class="orb orb-2"></div>
-        <div class="orb orb-3"></div>
-    </div>
-
-    <div id="bubble-overlay"></div>
-
-    <div class="toggle-container">
-        <span class="lang-label active-lang" id="label-en">English</span>
-        <label class="switch">
-            <input type="checkbox" id="langToggle">
-            <span class="slider"></span>
-        </label>
-        <span class="lang-label inactive-lang" id="label-hi">हिंदी</span>
     </div>
 
     <div class="container">
         
         <div class="hero-header scroll-anim show">
-            <div class="hero-bg-en"></div>
-            <div class="hero-bg-hi"></div>
+            <div class="hero-bg"></div>
             <div class="hero-overlay"></div>
-            <h1 class="main-title" id="kinetic-title">Comparison : ECM vs CEM</h1>
+            <h1 class="main-title">Comparison : ECM vs CEM</h1>
         </div>
 
-        <div id="content-en" class="lang-section active">
-            
+        <div>
             <div class="glass-panel scroll-anim">
                 <h2>Program Profiles</h2>
                 
@@ -145,115 +125,6 @@
             <div class="glass-panel scroll-anim conclusion-box">
                 <h2>CONCLUSION:</h2>
                 <p>Ultimately, the choice between IIT Delhi's ECM and IIT Madras's CEM comes down to your core engineering philosophy and long-term vision. If you thrive on the sheer mathematical rigor of building algorithmic logic from scratch and want the immediate backing of a mature campus network to bridge your technical skills with the startup ecosystem, the established track at Delhi remains a formidable choice. Conversely, if you are driven by the seamless integration of hardware and software—eager to pioneer digital twin technologies with the structured runway of a built-in Master’s pathway—the modern architecture at Madras offers a visionary alternative. Both are elite stepping stones; your best move is to trust which environment aligns most naturally with the specific kind of problem-solver you want to become.</p>
-            </div>
-
-        </div>
-
-        <div id="content-hi" class="lang-section">
-            
-            <div class="glass-panel scroll-anim">
-                <h2>प्रोग्राम प्रोफाइल्स (Program Profiles)</h2>
-                
-                <h3>IIT दिल्ली — इंजीनियरिंग एंड कंप्यूटेशनल मैकेनिक्स (ECM):</h3>
-                <div class="box-container">
-                    <div class="feature-box scroll-anim stagger-1">
-                        <h4>अकादमिक कोर (The Academic Core)</h4>
-                        <p>यह गहराई से क्लासिकल मैकेनिक्स (फ्लूइड मैकेनिक्स, सॉलिड मैकेनिक्स, थर्मोडायनामिक्स और इलास्टिसिटी) पर आधारित है। इसे आधुनिक डेटा-संचालित (data-driven) उपकरणों का समर्थन प्राप्त है, जिसमें 'मैकेनिक्स में मशीन लर्निंग' पर एक विशेष कोर्स भी शामिल है।</p>
-                    </div>
-                    <div class="feature-box scroll-anim stagger-2">
-                        <h4>विचारधारा (The Philosophy)</h4>
-                        <p>यह स्वचालित कम्प्यूटेशनल (automated computational) शॉर्टकट पर निर्भर रहने के बजाय बुनियादी डेरिवेशन, शुद्ध गणित और जटिल एल्गोरिदम लॉजिक को खुद से (manually) हल करने पर जोर देता है।</p>
-                    </div>
-                    <div class="feature-box scroll-anim stagger-3">
-                        <h4>व्यावहारिक आवश्यकता (Practical Requirement)</h4>
-                        <p>आवश्यक, नॉन-ग्रेडेड व्यावहारिक अनुभव यूनिट अर्जित करने के लिए तीसरे वर्ष के बाद 50 दिनों की समर इंटर्नशिप अनिवार्य है (और दूसरे वर्ष के बाद भी इसके लिए प्रोत्साहित किया जाता है)।</p>
-                    </div>
-                </div>
-
-                <h3 class="mt-30">IIT मद्रास — कंप्यूटेशनल इंजीनियरिंग एंड मैकेनिक्स (CEM):</h3>
-                <div class="box-container">
-                    <div class="feature-box scroll-anim stagger-1">
-                        <h4>अकादमिक कोर (The Academic Core)</h4>
-                        <p>यह हाल ही में नाम बदले गए 'डिपार्टमेंट ऑफ एप्लाइड मैकेनिक्स एंड बायोमेडिकल इंजीनियरिंग' का एक बिल्कुल नया अंडरग्रेजुएट प्रोग्राम है। इसे पहले दिन से ही बुनियादी STEM टूल्स (गणित, कंप्यूटिंग, डेटा साइंस, AI) और कोर इंजीनियरिंग विषयों के अंतःविषय (interdisciplinary) मिश्रण के रूप में स्पष्ट रूप से डिजाइन किया गया है।</p>
-                    </div>
-                    <div class="feature-box scroll-anim stagger-2">
-                        <h4>रिसर्च इंजन (The Research Engine)</h4>
-                        <p>इसे एक विशाल पोस्टग्रेजुएट इकोसिस्टम का भारी समर्थन प्राप्त है, जिसमें 220 से अधिक पीएचडी (PhD) छात्र और 100 एमएस (MS) स्कॉलर्स शामिल हैं, और इसके सरकारी प्रयोगशालाओं के साथ मजबूत स्थापित संबंध हैं।</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="glass-panel scroll-anim">
-                <h2>पाठ्यक्रम की तुलना: इलेक्ट्रिकल इंजीनियरिंग (EE) फैक्टर:</h2>
-                <div class="box-container">
-                    <div class="feature-box highlight-box scroll-anim stagger-1">
-                        <h4>IIT मद्रास (CEM) का EE बेस काफी मजबूत है:</h4>
-                        <p>प्रोग्राम के ढांचे के अनुसार, CEM अनिवार्य रूप से कोर इलेक्ट्रिकल इंजीनियरिंग को शामिल करता है, जिसमें सर्किट, सिग्नल और एम्बेडेड सिस्टम सीधे इसकी बुनियादी ट्रेनिंग में एकीकृत हैं। इसकी संरचना पारंपरिक मैकेनिक्स के साथ-साथ इलेक्ट्रिकल साइंस को एक प्रमुख कोर वेटेज देती है, जो डिजिटल ट्विन (digital twin) एप्लिकेशन और रोबोटिक्स को लक्षित करती है।</p>
-                    </div>
-                    <div class="feature-box highlight-box scroll-anim stagger-2">
-                        <h4>IIT दिल्ली (ECM) ने अपने EE हिस्से को कम किया है:</h4>
-                        <p>आधिकारिक प्रोग्राम टेम्पलेट के अनुसार, IIT दिल्ली का कोर इलेक्ट्रिकल हिस्सा केवल 'इलेक्ट्रिकल इंजीनियरिंग का परिचय' और 'सिग्नल्स एंड सिस्टम्स' तक सीमित है। विशेष रूप से, छात्रों और फैकल्टी के फीडबैक के आधार पर ELL201 (डिजिटल इलेक्ट्रॉनिक्स) जैसे महत्वपूर्ण हार्डवेयर कोर्सेज को कोर पाठ्यक्रम से हटा दिया गया है, ताकि एडवांस्ड मैकेनिकल सिमुलेशन और शुद्ध गणितीय कंप्यूटिंग पर ध्यान केंद्रित किया जा सके।</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="glass-panel scroll-anim">
-                <h2>आपको किसे चुनना चाहिए?</h2>
-                
-                <div class="comparison-grid">
-                    <div class="grid-column">
-                        <h3>IIT दिल्ली (ECM) चुनें यदि:</h3>
-                        <div class="feature-box min-height-box scroll-anim stagger-1">
-                            <p>आपको इलेक्ट्रोडायनामिक्स, थर्मोडायनामिक्स और सॉलिड मैकेनिक्स जैसे कोर फिजिकल साइंसेज की गहराई में जाना पसंद है।</p>
-                        </div>
-                        <div class="feature-box min-height-box scroll-anim stagger-2">
-                            <p>आप कोड के पीछे के "कैसे" और "क्यों" को समझना चाहते हैं—और ब्लैक-बॉक्स शॉर्टकट के बजाय मैन्युअल एल्गोरिदम लॉजिक, रिकर्सन (recursion), और डेटा स्ट्रक्चर को शुरुआत से बनाने को प्राथमिकता देते हैं।</p>
-                        </div>
-                        <div class="feature-box min-height-box scroll-anim stagger-3">
-                            <p>आप ऐसे माहौल में फलते-फूलते हैं जो प्रोफेशनल नेटवर्किंग, कॉर्पोरेट संबंधों और सक्रिय पूर्व छात्र (alumni) जुड़ाव पर जोर देता है।</p>
-                        </div>
-                    </div>
-
-                    <div class="grid-column">
-                        <h3>IIT मद्रास (CEM) चुनें यदि:</h3>
-                        <div class="feature-box min-height-box scroll-anim stagger-1">
-                            <p>आप आधुनिक इंजीनियरिंग समस्याओं को हल करने के लिए उच्च-स्तरीय AI, मशीन लर्निंग और डेटा साइंस फ्रेमवर्क का उपयोग करना चाहते हैं।</p>
-                        </div>
-                        <div class="feature-box min-height-box scroll-anim stagger-2">
-                            <p>आप अलग-थलग डेरिवेशन के बजाय इस बात पर अधिक ध्यान देते हैं कि व्यापक, अंतःविषय (interdisciplinary) चुनौतियों को हल करने के लिए विभिन्न विषय बड़े स्तर पर कैसे एक-दूसरे के साथ काम करते हैं।</p>
-                        </div>
-                        <div class="feature-box min-height-box scroll-anim stagger-3">
-                            <p>आप अत्याधुनिक राष्ट्रीय अनुसंधान मिशनों पर सरकारी प्रयोगशालाओं और पीएचडी (PhD) स्कॉलर्स के साथ सीधे सहयोग करना चाहते हैं।</p>
-                        </div>
-                        <div class="feature-box min-height-box scroll-anim stagger-4">
-                            <p>आपकी इस बात में रुचि है कि मैकेनिक्स किस तरह से बायोसाइंसेस, बायोमैकेनिक्स और क्लिनिकल इंजीनियरिंग के साथ जुड़ता है।</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="glass-panel scroll-anim">
-                <h2>फैसला: "नई ब्रांच के जोखिम" (New Branch Risk) को संभालना:</h2>
-                
-                <div class="verdict-banner scroll-anim">
-                    <p><strong>निष्कर्ष (The Bottom Line):</strong> जब तक कि आपका मुख्य लक्ष्य रिसर्च-फर्स्ट पाइपलाइन में गहराई से शामिल एक पायनियर छात्र बनना न हो, IIT दिल्ली (ECM) व्यावहारिक रूप से बेहतर और सुरक्षित विकल्प के रूप में सामने आता है।</p>
-                </div>
-
-                <div class="comparison-grid mt-20">
-                    <div class="feature-box scroll-anim stagger-1">
-                        <h4>IIT दिल्ली (ECM):</h4>
-                        <p>यह "नई ब्रांच के जोखिम" को पूरी तरह से समाप्त करता है। यह एक परिपक्व, परखा हुआ पाठ्यक्रम, एक सक्रिय सीनियर-जूनियर मेंटरशिप नेटवर्क और टॉप-टियर रिक्रूटर्स के साथ एक स्थापित कैंपस प्लेसमेंट ट्रैक रिकॉर्ड प्रदान करता है।</p>
-                    </div>
-                    <div class="feature-box scroll-anim stagger-2">
-                        <h4>IIT मद्रास (CEM):</h4>
-                        <p>हालांकि इसे एक उत्कृष्ट पोस्टग्रेजुएट रिसर्च इकोसिस्टम का समर्थन प्राप्त है, यह एक बिल्कुल नई अंडरग्रेजुएट पहल है। इसमें बिना प्रमाणित प्लेसमेंट डेटा और शुरुआती लॉजिस्टिक समस्याओं से जुड़े स्वाभाविक जोखिम शामिल हैं।</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="glass-panel scroll-anim conclusion-box">
-                <h2>निष्कर्ष (CONCLUSION):</h2>
-                <p>अंततः, IIT दिल्ली के ECM और IIT मद्रास के CEM के बीच का चुनाव आपकी कोर इंजीनियरिंग विचारधारा और दीर्घकालिक विजन (long-term vision) पर निर्भर करता है। यदि आप शुरुआत से ही एल्गोरिदम लॉजिक बनाने की शुद्ध गणितीय कठोरता का आनंद लेते हैं और अपने तकनीकी कौशल को स्टार्टअप इकोसिस्टम के साथ जोड़ने के लिए एक परिपक्व कैंपस नेटवर्क का तत्काल समर्थन चाहते हैं, तो दिल्ली का स्थापित ट्रैक एक शानदार विकल्प बना हुआ है। इसके विपरीत, यदि आप हार्डवेयर और सॉफ्टवेयर के सहज एकीकरण से प्रेरित हैं—और मास्टर डिग्री के इन-बिल्ट मार्ग के संरचित रनवे के साथ डिजिटल ट्विन (digital twin) तकनीकों में अग्रणी बनने के लिए उत्सुक हैं—तो मद्रास का आधुनिक आर्किटेक्चर एक दूरदर्शी विकल्प प्रदान करता है। दोनों ही एलीट (elite) विकल्प हैं; आपका सबसे अच्छा कदम यह भरोसा करना है कि कौन सा माहौल उस विशिष्ट प्रकार के प्रॉब्लम-सॉल्वर (समस्या-समाधानकर्ता) के साथ सबसे स्वाभाविक रूप से मेल खाता है, जो आप बनना चाहते हैं।</p>
             </div>
 
         </div>
